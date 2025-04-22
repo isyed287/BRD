@@ -1,0 +1,60 @@
+SMART EMERGENCY RESPONSE COORDINATION SYSTEM (SERCS)
+ Business Requirements Document (BRD)
+ 
+1. Purpose
+The purpose of this system is to provide a web-based emergency response platform that allows registered victims to 
+request help easily without repeated logins. The system connects victims, admins, and responders in a streamlined 
+workflow to ensure quick and effective emergency handling.
+2. Scope
+This system enables:
+- Victims to register once and request help without login.
+- Admins to receive alerts and assign tasks.
+- Responders to accept, reject, or update tasks.
+- Notifications to be sent to victims (even when offline).
+- Centralized location tracking and alert management.
+3. Stakeholders
+Stakeholders
+Role Description
+Victim The end-user who raises alerts for emergency help.
+Admin Manages alerts, assigns tasks, and handles location tracking.
+Responder Executes the assigned emergency task and updates status.
+System Automated backend services for alerts, notifications, task assignment, and location tracking.
+4. Business Requirements
+ID Requirement Description
+BR1 Victims must be able to register only once and access the system without logging in again.
+BR2 Victims can raise an emergency alert using keywords like 'Help' or 'Need help'.
+BR3 The system should automatically alert admins when a victim raises an alert.
+BR4 Admins must be able to assign tasks to responders.
+BR5 Responders must be able to accept, reject, or update tasks.
+BR6 Victims must receive location-based notifications even when they are not logged in.
+BR7 A centralized location service must track all user locations.
+ SMART EMERGENCY RESPONSE COORDINATION SYSTEM (SERCS)
+ Business Requirements Document (BRD)
+ 
+BR8 Notifications must be pushed when a danger zone is detected near a victim.
+5. Functional Requirements
+ID Functional Description
+FR1 Victim registration form and data storage.
+FR2 Keyword detection system for alerting.
+FR3 Real-time admin dashboard to receive and assign alerts.
+FR4 Responder interface for task handling.
+FR5 Notification service (SMS, push, etc.) for danger alerts.
+FR6 Location management system for all actors.
+6. Non-Functional Requirements
+ID Description
+NFR1 System should be highly available (99.9% uptime).
+NFR2 Real-time notification and alert delivery with <5s latency.
+NFR3 Scalable to handle thousands of concurrent users.
+NFR4 Secure data handling and encrypted communication.
+NFR5 Mobile-friendly user interface.
+7. Assumptions
+- Victims have access to a mobile phone or web interface.
+- Admin and responders have continuous internet access.
+- Location services (GPS) are enabled on users' devices.
+8. Constraints
+- Dependent on third-party notification providers (e.g., SMS gateways).
+- Voice/keyword detection must be optimized for different languages and accents.
+9. Success Metrics
+- 90%+ of alerts responded to within 5 minutes.
+- 95%+ notification delivery success rate.
+- 99%+ task completion rate by responders
