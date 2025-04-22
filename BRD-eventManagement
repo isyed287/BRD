@@ -1,1 +1,85 @@
-Planning and managing an event, whether a wedding, corporate conference, or community festival, involves coordinating various elements, such as budgets, vendors, guest lists, and schedules. For example, a wedding planner might need to track payments to multiple vendors, manage RSVPs for hundreds of guests, and ensure all logistics are in place for the big day. Traditional tools like spreadsheets and email can become unwieldy, leading to potential errors, missed deadlines, and increased stress. The success of an event often hinges on effective organization and real-time updates, which can be challenging to manage with outdated methods.
+EVENT PLANNING AND MANAGEMENT SYSTEM
+Business Requirements Document (BRD)
+
+1. Purpose
+The purpose of this system is to provide a comprehensive, web-based platform for planning and managing events such as weddings, corporate conferences, or community festivals. It enables planners to seamlessly manage guest lists, vendors, budgets, and schedules in one centralized system, thereby minimizing human errors and enhancing event coordination through real-time updates.
+
+2. Scope
+This system enables:
+
+Event planners to create, edit, and manage events.
+
+Budget tracking and expense management.
+
+Vendor assignment and communication.
+
+Guest list management, RSVP tracking, and notifications.
+
+Real-time scheduling and logistics coordination.
+
+Centralized dashboard for overseeing all event aspects.
+
+3. Stakeholders
+
+Stakeholder	Role Description
+Event Planner	The main user who organizes and coordinates events using the platform.
+Vendor	Provides services such as catering, decoration, entertainment, etc., and updates their task status.
+Guest	Invited to the event and may RSVP through the platform.
+Admin	Maintains the system, manages users, and resolves escalations.
+System	Provides backend services such as reminders, task tracking, communication, and analytics.
+4. Business Requirements
+
+ID	Requirement Description
+BR1	Planners must be able to create and manage multiple events.
+BR2	The system should allow importing and exporting guest lists.
+BR3	Planners can assign vendors and track vendor deliverables.
+BR4	Guests should be able to RSVP via email or SMS links.
+BR5	The system must notify planners of upcoming tasks or budget overruns.
+BR6	Vendors must be able to update their task status (e.g., confirmed, in progress, completed).
+BR7	A centralized dashboard must display real-time updates across all events.
+BR8	Budget tracking must include planned vs. actual expenses with visual summaries.
+5. Functional Requirements
+
+ID	Functional Description
+FR1	Event creation, editing, and deletion functionalities.
+FR2	Vendor management module with assignment and status tracking.
+FR3	Guest management system with RSVP tracking and bulk import/export.
+FR4	Notification system for task reminders, confirmations, and alerts.
+FR5	Budget planner with expense logging, threshold alerts, and summary charts.
+FR6	Calendar and scheduling tool for event day timelines and logistics.
+FR7	Mobile-responsive interface for easy event access on the go.
+FR8	Real-time dashboard summarizing event status, pending tasks, and alerts.
+6. Non-Functional Requirements
+
+ID	Description
+NFR1	System must have 99.9% uptime to ensure reliability.
+NFR2	Notifications must be delivered within 3 seconds.
+NFR3	Scalable to support hundreds of simultaneous events.
+NFR4	All user data must be encrypted and securely stored.
+NFR5	The user interface must be intuitive, responsive, and accessible on all devices.
+7. Assumptions
+Planners, guests, and vendors have access to the internet.
+
+Guests and vendors have access to email or SMS.
+
+Planners are familiar with basic event planning workflows.
+
+Budget and vendor details are known and entered by the planner.
+
+8. Constraints
+Dependent on third-party services for SMS/email notifications.
+
+Integration with payment gateways may vary based on vendor availability.
+
+Language support for notifications may be limited initially to English.
+
+9. Success Metrics
+95%+ of vendors complete assigned tasks on time.
+
+90%+ RSVP responses are collected through the system.
+
+99%+ planner satisfaction rate based on system usability.
+
+98%+ real-time task and schedule updates accuracy.
+
+At least 90% of budget reports are generated without manual intervention.
